@@ -7,7 +7,7 @@ for i in range (100):
 for i in range (100):
     for j in range (100):
         Square[i].append(random.choice(Alphabet))
-#Παραγωγή τετραγώνου 100*100 , για εμφάνιση αφαιρέστε το '#' απο τις εντολές εξόδου
+#Παραγωγή τετραγώνου 100*100 
 for i in range (100): 
     for j in range (100):
         #print (Square[i][j] , end='')
