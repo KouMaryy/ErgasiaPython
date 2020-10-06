@@ -6,12 +6,12 @@ for i in range(80) :
 random.shuffle(Bingonums)
 Sum = 0
 for round in range(1000) :
-    #print ("Έναρξη" , round + 1 , "ου γύρου")
+    print ("Έναρξη" , round + 1 , "ου γύρου")
     ChoicesList = []
     Shots = []
     for player in range(100): 
         ChoicesList.append(random.sample(Bingonums,5))
-        #print ("Οι επιλογές αριθμών του" , player + 1 , "ου παίκτη είναι: " , ChoicesList[player])
+        print ("Οι επιλογές αριθμών του" , player + 1 , "ου παίκτη είναι: " , ChoicesList[player])
     for player in range (100):
         s = 0
         y = []
